@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5rem;
+}
+
+
+/* #loader {
+    display: none;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 50px;
+}*/
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #838383;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right bottom, rgb(234, 239, 242), rgb(218, 218, 246), rgb(177, 177, 250));
+    border-bottom: 7px solid purple;
+}
+
+.card .auth {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+.card .date {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card .content {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img {
+    height: 150px;
+    width: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 10px #929292;
+}
